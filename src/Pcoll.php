@@ -6,7 +6,7 @@ namespace Carmelzuk\Pcoll;
 class Pcoll{
 
     function hello(){
-        return "Hello";
+        return "Hello World";
     }
 
 }
