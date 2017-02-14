@@ -1,0 +1,28 @@
+{
+  "type": "json",
+  "fields": [
+    {
+      "name": "count",
+      "q_name": "count",
+      "type": "int"
+
+    },
+    {
+      "name": "Results",
+      "q_name": "results",
+      "type": "arr",
+      "elements": [
+        {
+          "name": "ISO code",
+          "q_name": "isocode",
+          "type": "string"
+        },
+        {
+          "name": "Country",
+          "q_name": "country",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

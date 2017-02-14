@@ -2,7 +2,7 @@
     "name": "carmelzuk/pcoll",
     "description": "A data collector helper.",
     "keywords": ["collection", "api", "json"],
-    "license": "GPL-3.0",
+    "license": "DBAD",
     "authors": [
         {
             "name": "Carmel Zuk",

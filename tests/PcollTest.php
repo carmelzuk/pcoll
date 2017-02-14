@@ -16,5 +16,11 @@ class PcollTest extends PHPUnit_Framework_TestCase{
 	unset($var);
   }
 
+  public function testGetMock(){
+      $var = new Carmelzuk\Pcoll\Pcoll();
+      $this->assertEquals('mock', $var->getDummyStruct());
+      unset($var);
+  }
+
   
 }
